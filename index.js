@@ -13,20 +13,20 @@ if (typeof Promise === 'undefined') {
   PromiseFn = es6Promise.Promise
 }
 
-function HttpRequestAPI (baseUrl, initialHeaders, cacheTime) {
+function HttpRequestAPI (baseUrl, initialHeaders) {
   this.baseUrl = baseUrl
   this.initialHeaders = initialHeaders
 };
 
-HttpRequestAPI.prototype.get = function (resource, query, cacheKey) {
+HttpRequestAPI.prototype.get = function (resource, query) {
   return this.makeRequest(resource, 'GET', query, null)
 }
 
-HttpRequestAPI.prototype.post = function (resource, query, body) {
+HttpRequestAPI.prototype.post = function (resource, body, query) {
   return this.makeRequest(resource, 'POST', query, body)
 }
 
-HttpRequestAPI.prototype.put = function (resource, query, body) {
+HttpRequestAPI.prototype.put = function (resource, body, query) {
   return this.makeRequest(resource, 'PUT', query, body)
 }
 
@@ -79,6 +79,8 @@ function constructResponse (response) {
   }
   if (response.statusCode < 400) {
     obj.data = JSON.parse(response.body)
+  } else {
+    obj.error = JSON.parse(response.body)
   }
   return obj
 }

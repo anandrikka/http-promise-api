@@ -4,9 +4,7 @@
   "description": "Http Requests with ES6 Promise capability",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
-    "lint": "standard",
-    "lint-auto-fix": "standard --fix"
+    "test": "mocha"
   },
   "author": "Anand Rikka <appsbyanand@gmail.com> (http://techanand.wordpress.com)",
   "license": "MIT",
@@ -30,7 +28,6 @@
     "promise http"
   ],
   "devDependencies": {
-    "mocha": "^3.1.2",
-    "standard": "^8.4.0"
+    "mocha": "^3.1.2"
   }
 }
