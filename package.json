@@ -15,6 +15,10 @@
     "object-assign": "^4.1.0",
     "request": "^2.75.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anandrikka/http-promise-api.git"
+  },
   "keywords": [
     "http",
     "api",
