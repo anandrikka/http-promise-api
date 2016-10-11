@@ -1,6 +1,6 @@
 {
   "name": "http-promise-api",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Http Requests with ES6 Promise capability",
   "main": "index.js",
   "scripts": {
