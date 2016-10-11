@@ -6,12 +6,12 @@
 A simple nodejs application for http requests with Promise wrapper
 
 ```bash
-npm install http-api-promise
+npm install http-promise-api
 ```
 How to use
 
 ```js
-var HttpRequestAPI = require('http-api-promise')
+var HttpRequestAPI = require('http-promise-api')
 HttpRequestAPI = new HttpRequestAPI('your base url',  {header object});
 
 //get request
