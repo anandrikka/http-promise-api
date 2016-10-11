@@ -1,6 +1,6 @@
 #http-promise-api
 
-[![NPM Version](https://img.shields.io/npm/v/http-promise-api.svg)](https://www.npmjs.com/package/api-http)
+[![NPM Version](https://img.shields.io/npm/v/http-promise-api.svg)](https://www.npmjs.com/package/http-promise-api)
 
 
 A simple nodejs application for http requests with Promise wrapper
