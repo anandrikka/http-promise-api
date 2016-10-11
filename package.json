@@ -1,0 +1,32 @@
+{
+  "name": "http-promise-api",
+  "version": "1.0.0",
+  "description": "Http Requests with ES6 Promise capability",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "standard",
+    "lint-auto-fix": "standard --fix"
+  },
+  "author": "Anand Rikka <appsbyanand@gmail.com> (http://techanand.wordpress.com)",
+  "license": "MIT",
+  "dependencies": {
+    "es6-promise": "^4.0.5",
+    "object-assign": "^4.1.0",
+    "request": "^2.75.0"
+  },
+  "keywords": [
+    "http",
+    "api",
+    "client",
+    "http-promise",
+    "http-api",
+    "http-api-promise",
+    "promise api",
+    "promise http"
+  ],
+  "devDependencies": {
+    "mocha": "^3.1.2",
+    "standard": "^8.4.0"
+  }
+}
